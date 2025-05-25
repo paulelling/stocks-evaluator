@@ -1,10 +1,12 @@
-import ProjectsSidebar from "./components/ProjectsSidebar";
+import StockRequest from "./components/StockRequest";
 
 function App() {
   return (
-    <main>
-      <ProjectsSidebar></ProjectsSidebar>
-    </main>
+    <div>
+      <StockRequest></StockRequest>
+      <p>&nbsp;</p>
+      
+    </div>
   );
 }
 
