@@ -1,11 +1,11 @@
+import Header from "./Header";
 import StockRequest from "./components/StockRequest";
 
 function App() {
   return (
-    <div>
+    <div className="content">
+      <Header></Header>
       <StockRequest></StockRequest>
-      <p>&nbsp;</p>
-      
     </div>
   );
 }
